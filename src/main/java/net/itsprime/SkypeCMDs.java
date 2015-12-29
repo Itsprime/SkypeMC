@@ -6,6 +6,8 @@ import in.kyle.ezskypeezlife.events.conversation.SkypeMessageReceivedEvent;
 import org.apache.commons.lang.StringUtils;
 import org.jsoup.Jsoup;
 
+import java.net.URL;
+
 /**
  * Created by Jham on 12/29/2015.
  */
