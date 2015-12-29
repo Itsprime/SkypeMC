@@ -17,7 +17,7 @@ public class SkypeCMDs {
         case "+ping":  // Replies to a conversation with the message pong
             event.reply("Pong!");
             break;
-        case "+me":  // Prints out user information
+        case "+me":  // Prints out user info
             event.reply("You: " + event.getMessage().getSender());
             break;
         case "+edit":  // Tests message editing
