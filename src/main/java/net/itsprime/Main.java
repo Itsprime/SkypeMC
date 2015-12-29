@@ -10,7 +10,7 @@ public class Main extends JavaPlugin {
 
     public void onEnable() {
         getConfig().options().copyDefaults(true);
-        saveConfig();
+        saveDefaultConfig();
         try {
             new SkypeLogin().skypeLogin();
         } catch (Exception e) {
